@@ -5,3 +5,18 @@
 .nav-link:hover{
     color: #B92126;
 }
+
+span{
+    color: #B92126;
+    
+}
+
+.btn{
+    background-color: #B92126;
+}
+
+.btn:hover{
+    background-color: #a81c21;
+    
+}
+

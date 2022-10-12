@@ -1,4 +1,4 @@
-.re{
+span, .re{
     color: #B92126;
 }
 
@@ -6,10 +6,7 @@
     color: #B92126;
 }
 
-span{
-    color: #B92126;
-    
-}
+
 
 .btn{
     background-color: #B92126;
@@ -19,4 +16,5 @@ span{
     background-color: #a81c21;
     
 }
+
 

@@ -1,0 +1,62 @@
+:root{
+    --my-special-color-dark: #f28a8d;
+    --my-special-color-hover-dark: #de7174;
+    --my-special-color: #B92126;
+    --my-special-color-hover: #ae191e;
+}
+
+
+header{
+    height:100px;
+}
+
+#skills h2{
+    &:nth-child(even){
+        color: var(--my-special-color);
+    }
+}
+
+section{
+    .row{
+        img{
+            width:100%;
+        }
+    }
+}
+
+.text-main{
+    color: var(--my-special-color);
+}
+
+.nav-link:hover{
+    color: var(--my-special-color);
+}
+ 
+
+.btn{
+    background-color: var(--my-special-color);
+
+    &:hover{
+        background-color: var(--my-special-color-hover);
+    }
+}
+
+.dark {
+    .text-main{
+        color: var(--my-special-color-dark);
+    }
+
+    .nav-link:hover{
+        color: var(--my-special-color-dark);
+    }
+
+    .btn{
+        background-color: var(--my-special-color-dark);
+
+        &:hover{
+            background-color: var(--my-special-color-hover-dark);
+        }
+    }
+
+    
+}

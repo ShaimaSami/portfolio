@@ -1,20 +1,46 @@
-span, .re{
-    color: #B92126;
+:root {
+  --my-special-color-dark: #f28a8d;
+  --my-special-color-hover-dark: #de7174;
+  --my-special-color: #B92126;
+  --my-special-color-hover: #ae191e;
 }
 
-.nav-link:hover{
-    color: #B92126;
+header {
+  height: 100px;
 }
 
-
-
-.btn{
-    background-color: #B92126;
+#skills h2:nth-child(even) {
+  color: var(--my-special-color);
 }
 
-.btn:hover{
-    background-color: #a81c21;
-    
+section .row img {
+  width: 100%;
 }
 
+.text-main {
+  color: var(--my-special-color);
+}
 
+.nav-link:hover {
+  color: var(--my-special-color);
+}
+
+.btn {
+  background-color: var(--my-special-color);
+}
+.btn:hover {
+  background-color: var(--my-special-color-hover);
+}
+
+.dark .text-main {
+  color: var(--my-special-color-dark);
+}
+.dark .nav-link:hover {
+  color: var(--my-special-color-dark);
+}
+.dark .btn {
+  background-color: var(--my-special-color-dark);
+}
+.dark .btn:hover {
+  background-color: var(--my-special-color-hover-dark);
+}

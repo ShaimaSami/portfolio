@@ -1,20 +1,13 @@
 <template>
-    <div>
-      <Myheader />
+    <div :dir="this.$dir()">
+      <IncMyheader />
       <Nuxt />
-      <Myfooter />
+      <IncMyfooter />
     </div>
   </template>
 
     <script>
-    import Myheader from '~/components/inc/Myheader.vue';
-    import Myfooter from '~/components/inc/Myfooter.vue';
-
     export default {
         name: 'default',
-        components: {
-            Myheader,
-            Myfooter,
-        }
     }
     </script>

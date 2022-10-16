@@ -30,6 +30,10 @@ export default {
     {
       src: '/js/bootstrap.bundle.min.js',
       type: 'text/javascript'
+    },
+    {
+      src: '/js/main.js',
+      type: 'text/javascript'
     }
   ]
   },
@@ -50,6 +54,34 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
+    '@nuxtjs/i18n',
+  ],
+  
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        file: 'en.json',
+        dir: 'ltr'
+      },
+      {
+        code: 'ar',
+        file: 'ar.json',
+        dir: 'rtl'
+      }
+    ],
+    lazy: true,
+    langDir: 'locales/',
+    vueI18n: {
+      fallbackLocale: 'en',
+      defaultDirection: 'ltr',
+    }
+  },
+
+  plugins: [                                                                  
+    '~/plugins/i18n.js',                                                  
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

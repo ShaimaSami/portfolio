@@ -1,6 +1,6 @@
 :root {
-  --my-special-color-dark: #f28a8d;
-  --my-special-color-hover-dark: #de7174;
+  --my-special-color-dark: #B92126;
+  --my-special-color-hover-dark: #ae191e;
   --my-special-color: #B92126;
   --my-special-color-hover: #ae191e;
 }
@@ -25,11 +25,16 @@ section .row img {
   color: var(--my-special-color);
 }
 
+
 .btn {
   background-color: var(--my-special-color);
 }
 .btn:hover {
   background-color: var(--my-special-color-hover);
+}
+
+.btn-danger-color {
+  background-color: var(--my-special-color);
 }
 
 .dark .text-main {

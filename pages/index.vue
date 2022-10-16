@@ -1,22 +1,18 @@
 <template>
-    <main>
+    <div>
         <Hero />
         <About />
         <Skills />
         <Projects />
-    </main>
+    </div>
 </template>
 
 
-
-
 <script>
-import About from '../components/sections/about.vue';
-import Hero from '../components/sections/hero.vue';
-import Skills from '../components/sections/skills.vue';
-import Projects from '../components/sections/projects.vue';
+// english
 export default {
     name: `IndexPage`,
-    components: { About, Hero, Skills, Projects }
+    layout: 'default',
+    // components: { About, Hero, Skills, Projects }
 }
 </script>

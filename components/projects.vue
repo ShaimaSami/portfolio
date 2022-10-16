@@ -1,14 +1,12 @@
 <template>
   <!-- Project section start -->
-  <section id="projects" class="projects py-5">
+  <section id="project" class="projects py-5">
     <div class="container">
       <div class="row">
         <div class="section-title mb-2">
-            <h1 class="mt-5 text-center">MY PROJECTS</h1>
+            <h1 class="mt-5 text-center">{{$t('project')}}</h1>
             <p class="mt-1 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            amet quia voluptatum quis deleniti accusantium blanditiis dignissimos
-            ipsum rem? Explicabo eum magni soluta!
+              {{$t('projectext')}}
             </p>
         </div>
         <div class="col-lg-12">
@@ -19,13 +17,11 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h2 class="card-title ms-2">Project title</h2>
+                  <h2 class="card-title ms-2">{{$t('projectitle')}}</h2>
                   <p class="card-text ms-2 mt-4">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    {{$t('projectitletext')}}
                   </p>
-                  <a href="#" class="btn btn-lg ms-2 text-white">Case Study</a>
+                  <a href="#" class="btn btn-lg ms-2 text-white">{{$t('more')}}</a>
                 </div>
               </div>
             </div>
@@ -41,6 +37,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-</style>

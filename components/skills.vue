@@ -4,11 +4,9 @@
     <div class="container">
       <div class="row">
           <div class="section-title mb-4">
-            <h1 class="mt-5 text-center">MY SKILLS</h1>
+            <h1 class="mt-5 text-center">{{$t('skills')}}</h1>
             <p class="mt-1 text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-              amet quia voluptatum quis deleniti accusantium blanditiis dignissimos
-              ipsum rem? Explicabo eum magni!
+            {{$t('skillstext')}}
             </p>
           </div>
         
@@ -37,6 +35,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-</style>

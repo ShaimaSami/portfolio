@@ -37,9 +37,10 @@ export default {
     }
   ]
   },
+  
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/static/css/style.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -55,7 +56,11 @@ export default {
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
     '@nuxtjs/i18n',
+    '@nuxtjs/color-mode',
+    '@nuxtjs/svg',
   ],
+
+  
   
 
   i18n: {
@@ -92,4 +97,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // buildModules: ['@nuxtjs/color-mode'],
+
+
 };

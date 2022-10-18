@@ -10,13 +10,13 @@
             </p>
         </div>
         <div class="col-lg-12">
-          <div class="card mb-3 bg-light shadow p-3 mb-5 bg-body rounded-4">
+          <div class="card mb-3 shadow p-3 mb-5 bg-body rounded-4">
             <div class="row g-0">
               <div class="col-md-4">
                 <img src="/images/reci.png" class="img-fluid" />
               </div>
               <div class="col-md-8">
-                <div class="card-body">
+                <div class="card-body cdby">
                   <h2 class="card-title ms-2">{{$t('projectitle')}}</h2>
                   <p class="card-text ms-2 mt-4">
                     {{$t('projectitletext')}}

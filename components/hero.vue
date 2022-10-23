@@ -14,7 +14,7 @@
           </a>
         </div>
         <div class="col-lg-7">
-            <img src="/images/hero.png" alt="" />
+            <img src="../assets/images/hero.png" alt="" />
         </div>
       </div>
     </div>

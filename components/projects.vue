@@ -13,7 +13,7 @@
           <div class="card mb-3 shadow p-3 mb-5 bg-body rounded-4">
             <div class="row g-0">
               <div class="col-md-4">
-                <img src="/images/reci.png" class="img-fluid" />
+                <img src="../assets/images/reci.png" class="img-fluid" />
               </div>
               <div class="col-md-8">
                 <div class="card-body cdby">

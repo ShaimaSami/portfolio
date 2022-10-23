@@ -14,8 +14,13 @@
           <div class="col-lg-4 col-md-4 mb-md-0 mb-3">
             <h5><span> {{$t('contactme')}} </span></h5>
             <ul class="list-unstyled" :dir="this.$dir()">
-              <li><a style="text-decoration: none; color: aliceblue;" href="mailto:shaimaldossari@gmail.com">Shaimaldossari@gmail.com</a></li>
-              <li><a style="text-decoration: none; color: aliceblue;" href="tel:+966583020022">+966 5 8302 0022</a></li>
+              <li>
+                <a style="text-decoration: none; color: aliceblue;" href="mailto:shaimaldossari@gmail.com">Shaimaldossari@gmail.com</a>
+              </li>
+              <br> 
+              <li>
+                <a style="text-decoration: none; color: aliceblue;" href="tel:+966583020022">+966 5 8302 0022</a>
+              </li>
             </ul>
           </div>
         </div>

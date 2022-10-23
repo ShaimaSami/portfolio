@@ -19,31 +19,31 @@ export default {
         type: "image/x-icon",
         href: "/favicon.ico" 
       },
-      { rel: "stylesheet",
-        href: "/css/bootstrap.min.css" 
-      },
-      { rel: "stylesheet",
-        href: "/css/style.css" 
-      }
+      // { rel: "stylesheet",
+      //   href: "/css/bootstrap.min.css" 
+      // },
+      // { rel: "stylesheet",
+      //   href: "~/static/style.css" 
+      // }
   ],
   script: [
-    {
-      src: '/js/bootstrap.bundle.min.js',
-      type: 'text/javascript'
-    },
-    {
-      src: '/js/main.js',
-      type: 'text/javascript'
-    }
-  ]
+      { src: '~/assets/js/bootstrap.bundle.min.js'},
+      { src: '~/assets/js/main.js'},
+    ]
   },
   
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/static/css/style.css'],
+  // css: ['~/assets/css/style.css','~/assets/css/bootstrap.min.css'],
+  css: ['~/assets/css/bootstrap.min.css','@/assets/css/style.css'],
+  
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [ '@/plugins/ant-design-vue',
+    // { src: '~/plugins/both-sides.js' },
+    // { src: '~/plugins/client-only.js', mode: 'client' },
+    // { src: '~/plugins/server-only.js', mode: 'server' }
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

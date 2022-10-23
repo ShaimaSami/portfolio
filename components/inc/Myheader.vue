@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import ColorModePicker from '@/components/inc/ColorModePicker'
+import ColorModePicker from '~/components/inc/ColorModePicker'
 
 export default {
 	name: "Myheader",

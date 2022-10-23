@@ -20,7 +20,7 @@
         </div>
         <div class="col-lg-6 col-md-6">
           <img
-          src="../assets/images/skill.png"
+          src="~/assets/images/skill.png"
           class=""
           alt=""
         />

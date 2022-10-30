@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-6 col-md-6 p-3">
             <img
-            :src="require('~/assets/images/about.png')"
+            :src="`~/assets/images/about.png`"
             class=""
             alt=""
             />
@@ -18,7 +18,7 @@
           <p class="mt-3 ms-3">
             {{$t('aboutext')}}
           </p>
-          <a href="@/assets/Resume?.pdf" download="" class="mt-2 ms-3 mb-4 btn btn-lg text-white" role="button"
+          <a :href="`${this.$route.path}@/assets/Resume?.pdf`" download="" class="mt-2 ms-3 mb-4 btn btn-lg text-white" role="button"
             >{{$t('resume')}}</a
           >
         </div>

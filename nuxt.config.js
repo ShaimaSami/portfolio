@@ -27,8 +27,8 @@ export default {
       // }
   ],
   script: [
-      { src: '~/assets/js/bootstrap.bundle.min.js'},
-      { src: '~/assets/js/main.js'},
+      { src: '@/assets/js/bootstrap.bundle.min.js'},
+      { src: '@/assets/js/main.js'},
     ]
   },
   

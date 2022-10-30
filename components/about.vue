@@ -9,7 +9,7 @@
         <div class="col-lg-6 col-md-6 p-3">
             <img
             src="~/assets/images/about.png"
-            class=""
+            class="w-100"
             alt=""
             />
         </div>

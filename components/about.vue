@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-6 col-md-6 p-3">
             <img
-            src="@/assets/images/about.png"
+            :src="require('~/assets/images/about.png')"
             class=""
             alt=""
             />
